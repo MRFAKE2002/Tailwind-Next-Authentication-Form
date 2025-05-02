@@ -30,7 +30,7 @@ const SignInSignUp = () => {
           )}
           <div className="group">
             <input
-              type="email "
+              type="email"
               placeholder="Email Address"
               className="w-full p-4 bg-blue-900/30 rounded-xl border border-blue-700/50 text-white placeholder-blue-300/50 outline-none focus:ring-2 focus:ring-yellow-400/50 focus:border-transparent transition-all"
             />

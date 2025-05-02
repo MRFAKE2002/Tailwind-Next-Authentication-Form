@@ -1,7 +1,9 @@
 @import "tailwindcss";
 
-* {
-  font-family: "Prompt", sans-serif;
+@layer base {
+  * {
+    font-family: "Prompt", sans-serif;
+  }
 }
 
 @theme {
@@ -35,6 +37,6 @@
   }
 }
 
-.animate-fate-in {
+.animate-fade-in {
   animation: fadeIn 0.5s ease-out forwards;
 }
